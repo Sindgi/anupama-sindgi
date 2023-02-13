@@ -1,0 +1,31 @@
+1.	Write a Python program to convert kilometres to miles?
+kilometres = 100
+miles = kilometres * 0.621371
+print (kilometres, "kilometres is equal to", miles, "miles.")
+
+2.	Write a Python program to convert Celsius to Fahrenheit?
+celsius = 100
+fahrenheit = (celsius * 9/5) + 32
+print(celsius, "°C is equal to", fahrenheit, "°F.")
+
+3.	Write a Python program to display calendar?
+import calendar
+year = 2022
+month = 2
+print(calendar.month(year, month))
+
+4.	Write a Python program to solve quadratic equation?
+import math
+a = 1
+b = -5
+c = 6
+discriminant = math.sqrt(b**2 - 4*a*c)
+root1 = (-b + discriminant) / (2 * a)
+root2 = (-b - discriminant) / (2 * a)
+print("The roots of the quadratic equation are", root1, "and", root2)
+5.	Write a Python program to swap two variables without temp variable?
+x = 5
+y = 10
+x, y = y, x
+print("After swapping, x is", x, "and y is", y)
+
